@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>date/calendar-15</title>
+    <g id="Home-WIP" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="MP_3_home_hero_search_trustpilot" transform="translate(-1076.000000, -2038.000000)" stroke-width="4">
+            <g id="Group-3-Copy" transform="translate(165.000000, 1897.000000)">
+                <g id="Group-2-Copy-2" transform="translate(760.000000, 143.000000)">
+                    <g id="calendar-15" transform="translate(153.000000, 0.000000)">
+                        <path d="M40.0006,44 L4.0006,44 C1.7926,44 0.000599999999,42.208 0.000599999999,40 L0.000599999999,8 C0.000599999999,5.792 1.7926,4 4.0006,4 L40.0006,4 C42.2086,4 44.0006,5.792 44.0006,8 L44.0006,40 C44.0006,42.208 42.2086,44 40.0006,44 Z" id="Stroke" stroke="#0C3B69"></path>
+                        <line x1="10.0006" y1="0" x2="10.0006" y2="10" id="Stroke" stroke="#1976D2"></line>
+                        <line x1="34.0006" y1="0" x2="34.0006" y2="10" id="Stroke" stroke="#1976D2"></line>
+                        <line x1="16.0006" y1="20" x2="16.0006" y2="36" id="Stroke" stroke="#1976D2"></line>
+                        <line x1="12.0006" y1="22" x2="16.0006" y2="20" id="Stroke" stroke="#1976D2"></line>
+                        <path d="M31.0006,20 L24.0006,20 L24.0006,28 L28.0006,28 C30.2086,28 32.0006,29.792 32.0006,32 C32.0006,34.208 30.2086,36 28.0006,36 L24.0006,36" id="Stroke" stroke="#1976D2"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

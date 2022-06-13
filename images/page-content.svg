@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="48px" viewBox="0 0 40 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>page-content</title>
+    <g id="Landing-pages----Landlords-&amp;-products" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="MP_landlords_landing_page" transform="translate(-1080.000000, -3965.000000)" stroke-width="4">
+            <g id="contact" transform="translate(0.000000, 3764.000000)">
+                <g id="content" transform="translate(165.000000, 60.000000)">
+                    <g id="Group-2-Copy-2" transform="translate(760.000000, 143.000000)">
+                        <g id="page-content" transform="translate(157.000000, 0.000000)">
+                            <polyline id="Stroke" stroke="#0C3B69" points="36.0006 16 20.0006 16 20.0006 0"></polyline>
+                            <line x1="8.0006" y1="26" x2="28.0006" y2="26" id="Stroke" stroke="#1976D2"></line>
+                            <line x1="8.0006" y1="34" x2="28.0006" y2="34" id="Stroke" stroke="#1976D2"></line>
+                            <path d="M32.0006,44 L4.0006,44 C1.7926,44 0.0006,42.208 0.0006,40 L0.0006,4 C0.0006,1.792 1.7926,0 4.0006,0 L20.0006,0 L36.0006,16 L36.0006,40 C36.0006,42.208 34.2086,44 32.0006,44 Z" id="Stroke" stroke="#0C3B69"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

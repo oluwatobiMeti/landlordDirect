@@ -1,0 +1,13 @@
+@media (max-width: 700px) {
+  /* #header * + * {
+  display: none;
+} */
+.more {
+  display: flex;
+  flex-direction: column;
+}
+.more * + * {
+  width: 100%;
+  margin-top: 2rem;
+}
+}

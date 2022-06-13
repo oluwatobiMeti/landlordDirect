@@ -1,0 +1,13 @@
+@media (max-width: 700px) {
+  /* #header * + * {
+  display: none;
+} */
+.key {
+  width: 100%;
+}
+.open {
+  display: block;
+  background-color: var(--primary-clr-blue);
+  color: var(--clr-white);
+}
+}
