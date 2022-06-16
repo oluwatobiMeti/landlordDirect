@@ -8,6 +8,10 @@ const password = document.getElementById("pwd");
 const sigininEmail = document.getElementById("sigininEmail");
 const sigininpass = document.getElementById("sigininPassword");
 const sigininbutton = document.getElementById("sigininButton");
+const sigininText = document.getElementById("signinTxt");
+const containerIntro = document.getElementById("container-intro");
+const examContainer = document.getElementById("exam-container");
+const signinwelcome = examContainer[sigininwel];
 console.log(select.value);
 const database = [];
 const addForm = (selectCh, firstName, lastName, email, phoneNum, password, ) => {
@@ -46,13 +50,17 @@ sigininbutton.addEventListener("click", function () {
   for (let i = 0; i < database.length; i++) {
     let element = JSON.parse(localStorage.getItem("data")) || [];
     if (sigininEmail == element[i].email) {
-       
-    } else {
+      if (sigininpass == element[i].password) {
+        containerIntro.hidden;
+        //signinwelcome.innerHTML = `welcome back to landlordDirect ${element[i].firstName} ${Element[i].lastName}`;
 
-    }
-    
-    if (sigininpass == element[i].password) {
+      } else {
+        sigininText.innerHTML =
+          "invalid Email or password address in the database";
+      }
     } else {
+      sigininText.innerHTML = "invalid Email address in the database";
+      
     }
   }
 })
