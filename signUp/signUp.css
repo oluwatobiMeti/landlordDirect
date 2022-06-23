@@ -84,3 +84,42 @@ form button {
   font-size: 2rem;
   width: 50%;
 }
+.tooltip {
+  color: var(--clr-black);
+  background-color: var(--primary-clr-blue);
+  text-align: center;
+  margin: auto;
+  width: 70%;
+}
+.tool-ctn {
+  width: 50vw;
+  text-align: center;
+  margin: auto;
+}
+.tool-ctn input {
+  width: 70%;
+  margin-top: 1rem;
+}
+.signin {
+  text-align: center;
+  background-color: var(--clr-black);
+
+}
+.tooltip {
+  margin-top: 0;
+}
+.tooltip-ctn {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+#roof {
+      width: 0;
+      height: 0;
+      border-left: 10px solid transparent;
+      border-right: 10px solid transparent;
+      border-bottom: 20px solid var(--primary-clr-blue);
+      /* margin-top: -20px; */
+      margin-top: 0;
+      margin-left: 30%;
+    }

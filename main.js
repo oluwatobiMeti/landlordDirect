@@ -1,3 +1,5 @@
+//const { Tooltip } = require("bootstrap");
+
 const signform = document.querySelector("form");
 const select = document.querySelector("select");
 const firstName = document.getElementById("fname");
@@ -5,14 +7,17 @@ const lastName = document.getElementById("lname");
 const mail = document.getElementById("Email");
 const phoneNum = document.getElementById("phoneNo");
 const password = document.getElementById("pwd");
-const sigininEmail = document.getElementById("sigininEmail");
-const sigininpass = document.getElementById("sigininPassword");
-const sigininbutton = document.getElementById("sigininButton");
-const sigininText = document.getElementById("signinTxt");
-const containerIntro = document.getElementById("container-intro");
-const examContainer = document.getElementById("exam-container");
-const signinwelcome = examContainer[sigininwel];
-console.log(select.value);
+const signinButton = document.getElementById("signin-Button");
+const signinEmail = document.getElementById("signin-Email");
+const signpassword = document.getElementById("signin-Password");
+const emailToolTip = document.querySelector(".email-Tooltip");
+const passwordToolTip = document.querySelector(".password-Tooltip");
+const tooltipContainer = document.querySelectorAll(".tooltip-ctn").hidden = true;
+const tooltip1 = document.getElementById("tooltip1");
+const tooltip2 = document.getElementById("tooltip2");
+tooltip1.style.display = "none";
+tooltip2.style.display = "none";
+//console.log(select.value);
 const database = [];
 const addForm = (selectCh, firstName, lastName, email, phoneNum, password, ) => {
   database.push({
@@ -30,7 +35,7 @@ const addForm = (selectCh, firstName, lastName, email, phoneNum, password, ) => 
 }
 signform.onsubmit = e => {
   e .preventDefault();
-  console.log(select.value);
+  //console.log(select.value);
   const newform = addForm(
     select.value,
     firstName.value,
@@ -46,21 +51,23 @@ signform.onsubmit = e => {
   phoneNum.value = "";
   password.value = '';
 }
-sigininbutton.addEventListener("click", function () {
-  for (let i = 0; i < database.length; i++) {
-    let element = JSON.parse(localStorage.getItem("data")) || [];
-    if (sigininEmail == element[i].email) {
-      if (sigininpass == element[i].password) {
-        containerIntro.hidden;
-        //signinwelcome.innerHTML = `welcome back to landlordDirect ${element[i].firstName} ${Element[i].lastName}`;
-
+// login in functionality 
+console.log("yes");
+const dataStored = JSON.parse(localStorage.getItem("data")) || [];
+signinButton.addEventListener("click", function (e) {
+  e.preventDefault();
+  for (i = 0; i < dataStored.length; i++) {
+    if (signinEmail.value === dataStored[i].email) {
+      if (signpassword.value === dataStored[i].password) {
+        window.location.href = "../home page/index.html"
       } else {
-        sigininText.innerHTML =
-          "invalid Email or password address in the database";
+        tooltip2.style.display = "flex";
       }
+
     } else {
-      sigininText.innerHTML = "invalid Email address in the database";
-      
+      tooltip1.style.display = "flex";
     }
   }
-})
+  });
+console.log(dataStored);
+console.log("yes");
